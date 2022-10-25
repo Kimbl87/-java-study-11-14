@@ -3,8 +3,6 @@ import java.util.Scanner;
 
 public class Main_12 {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-
         final String  J = "I like Java!!!";
 
 //        1. Проверить, содержит ли строка подстроку “Java” (используйте contains()).
