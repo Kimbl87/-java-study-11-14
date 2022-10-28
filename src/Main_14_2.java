@@ -9,18 +9,18 @@ public class Main_14_2 {
 
 
         int[] arr = new int[15];
-        for (int i = 0;i<15;i++){
+        for (int i = 0;i < 15;i++){
         //Создаем массив
             arr[i] = random.nextInt(-20, 21);
-            if (arr[i]>max) max = arr[i]; //Сравниваем с предыдущим элементом, если больше - переназначаем максимальное
-            if (arr[i]<min) min = arr[i]; //Сравниваем с предыдущим элементом, если меньше - переназначаем минимальное
+            if (arr[i] > max) max = arr[i]; //Сравниваем с предыдущим элементом, если больше - переназначаем максимальное
+            if (arr[i] < min) min = arr[i]; //Сравниваем с предыдущим элементом, если меньше - переназначаем минимальное
             System.out.print(arr[i] + " ");
         }
-        System.out.println("\nMax= "+max);//Вывод максимального
-        System.out.println("Min="+min);//Вывод минимального
+        System.out.println("\nMax= " + max);//Вывод максимального
+        System.out.println("Min=" + min);//Вывод минимального
         // Сравниваем модули выводим значение, модуль которого больше
-        if (Math.abs(max)>Math.abs(min)) System.out.println("Max abs="+max);
-        else System.out.println("Max abs="+min);
+        if (Math.abs(max)>Math.abs(min)) System.out.println("Max abs=" + max);
+        else System.out.println("Max abs=" + min);
     }
 
 }
