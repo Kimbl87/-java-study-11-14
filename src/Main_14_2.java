@@ -4,7 +4,6 @@ import java.util.Scanner;
 public class Main_14_2 {
 
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
         Random random = new Random();
         int min = 21; // Потенциальное минимальное число, в начале больше любого из элементов массива
         int max = -21;// Потенциальное максимальнро число, в начале меньше любого из элементов массива
